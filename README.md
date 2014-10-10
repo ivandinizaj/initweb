@@ -8,7 +8,6 @@ Usamos as seguintes bibliotecas
 * Sass / Compass
 * GULP
 * Moderniz
-* Coisas do Bootstrap ps: usamos apenas GRID do Bootstrap
 
 
 Para metologia de organização adotamos :
