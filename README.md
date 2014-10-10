@@ -14,7 +14,7 @@ Usamos as seguintes bibliotecas
 Para metologia de organização adotamos :
 * Atomic Design
 
-A `pasta _docs` é para ser colocada os arquivos que usará no projeto ex: layout.jpg, briefing.jpg,
+A pasta `_docs` é para ser colocada os arquivos que usará no projeto ex: layout.jpg, briefing.jpg,
 
 ## GULP
 	
