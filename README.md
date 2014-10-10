@@ -1,27 +1,30 @@
-#Initialize WEB
+#Init WEB
 
 Todos os arquivos ou pastas que iniciem com `_` não é usado para publicação do projeto.
 
 
 Usamos as seguintes bibliotecas
 
-* Sass / Compass
+* Sass
+* Compass
 * GULP
 * Moderniz
-* Coisas do Bootstrap ps: usamos apenas GRID do Bootstrap
 
 
 Para metologia de organização adotamos :
 * Atomic Design
 
-A `pasta _docs` é para ser colocada os arquivos que usará no projeto ex: layout.jpg, briefing.jpg,
+A pasta `_docs` é para ser colocada os arquivos que usará no projeto ex: layout.jpg, briefing.jpg,
 
-##GULP
-Módulos excessiais para criação do projeto dos módulos
-- 
+## GULP
+
+Módulos excessiais para criação dos módulos.
+
 ###Instalação
-npm install gulp gulp-jshint gulp-uglify gulp-concat gulp-rename --save-dev
 
+```js
+npm install gulp gulp-jshint gulp-uglify gulp-concat gulp-rename --save-dev
+```
 
 ## Compass
 Usamos pois gostamos bastante da diagramação mas
@@ -42,8 +45,8 @@ ga('create', 'UA-XXX-X', {'allowAnchor': true});
 ga('send', 'pageview', { 'page': location.pathname + location.search + locat
 ```
 
-## METATAGS
-Caso necessite acrescentar novas metagas seja  no Head onde achar mais confortável mas recomendamos logo abaixo das metatags
+## META TAGS
+Caso necessite acrescentar novas metatags seja  no Head onde achar mais confortável mas recomendamos logo abaixo das metatags
 
 ###Compartilhamento
 ####Facebook
