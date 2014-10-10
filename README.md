@@ -8,8 +8,6 @@ Usamos as seguintes bibliotecas
 * Sass / Compass
 * GULP
 * Moderniz
-* Coisas do Bootstrap ps: usamos apenas GRID do Bootstrap
-
 
 Para metologia de organização adotamos :
 * Atomic Design
@@ -22,7 +20,7 @@ Módulos excessiais para criação do projeto dos módulos.
 
 ### Instalação
 
-```
+```js
 npm install -g gulp
 
 npm install gulp --save-dev
