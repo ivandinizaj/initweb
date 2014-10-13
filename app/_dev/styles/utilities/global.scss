@@ -1,0 +1,13 @@
+*,
+*:before,
+*:after
+{
+    @include box-sizing(border-box);
+    @include rhythm(0, 0, 0, 0);
+}
+
+body
+{
+    font: $base-font-size Arial,Calibri normal;
+    word-wrap: break-word;
+}
