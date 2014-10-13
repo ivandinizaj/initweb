@@ -1,18 +1,19 @@
 # Initialize WEB
 
-Todos os arquivos ou pastas que iniciem com `_` não é usado para publicação do projeto.
+Todos os arquivos ou pastas que iniciem com `_` não servirá para publicação do projeto.
 
+A pasta `_docs` é para ser colocada os arquivos que usará no projeto ex: layout.jpg, briefing.jpg.
 
-Usamos as seguintes bibliotecas
-
+Usamos as seguintes worflow
 * Sass / Compass
 * GULP
-* Moderniz
+
+Bibliottecas
+* Moderniz Configure para deixar apenas o necessário http://modernizr.com/download/
 
 Para metologia de organização adotamos :
 * Atomic Design
 
-A pasta `_docs` é para ser colocada os arquivos que usará no projeto ex: layout.jpg, briefing.jpg,
 
 ## GULP
 	
@@ -58,29 +59,29 @@ ga('create', 'UA-XXX-X', {'allowAnchor': true});
 ga('send', 'pageview', { 'page': location.pathname + location.search + locat
 ```
 
-## METATAGS
+## META TAGS
 
 Caso necessite acrescentar novas metagas seja  no Head onde achar mais confortável mas recomendamos logo abaixo das metatags
+Caso seja um site normal
+
+```html 
+<meta property="og:type" content="website">
+```html
+
+Caso seja um artigo
+
+```html
+<meta property="og:type" content="article">
+<meta property="article:author" content="Autor do artigo">
+<meta property="article:section" content="Seção do artigo">
+<meta property="article:tag" content="Tags do artigo">
+<meta property="article:published_time" content="date_time">
+```html
 
 ### Compartilhamento
+
 #### Facebook
 	
-	Caso seja um site normal
-	
-	```html 
-	<meta property="og:type" content="website">
-	```
-	
-	Caso seja um artigo
-	
-	```html
-	<meta property="og:type" content="article">
-	<meta property="article:author" content="Autor do artigo">
-	<meta property="article:section" content="Seção do artigo">
-	<meta property="article:tag" content="Tags do artigo">
-	<meta property="article:published_time" content="date_time">
-	```
-
 ## APP Manifest
 
 Um manifesto de aplicativo contém informação necessário para que o navegador web interaja com um aplicativo. Ele provê tanto elementos para serem lidos por humanos (um nome, um conjunto de ícones, uma descrição; possivelmente em várias línguas) quanto elementos para serem lidos por máquinas, que permite ao navegador exibir e executar aplicativos
